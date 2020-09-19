@@ -1,16 +1,47 @@
-# pokedex
+# Pokédex
 
-Zipdev Flutter Code Assessment.
+Zipdev Flutter Code Assessment 
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+1) Download SDK de [Flutter](https://flutter.dev/docs/get-started/install). 
 
-A few resources to get you started if this is your first Flutter project:
+2) Add Flutter to the PATH.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Windows
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+This PC -> right click to properties -> Advanced system settings -> Environment variables in the variable called as Path. If there is no variable named as Path then create one and set the flutter/bin path.
+```
+
+### Mac & Linux
+
+```bash
+export PATH=/”flutter path”/bin:$PATH
+
+echo $PATH
+```
+
+## Run App (Android)
+
+ 1) Download the dependencies.
+
+```flutter
+cd pokedex
+flutter pub get
+```
+
+2) Run the app.
+
+```flutter
+flutter run
+```
+
+## Run App (iOS)
+
+1) Open XCode.
+2) First you will need to locate the **Runner.xcworkspace** file inside the ios folder of your project folder.
+3) After that you can click run and build the project.
+
+## Other run options
+Also if there is an IDE such as Android Studio or VS Code, the instructions to follow are [specified here](https://flutter-es.io/docs/get-started/editor?tab=androidstudio)
