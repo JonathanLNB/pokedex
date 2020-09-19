@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1065751362192-ejmm7brucmaulvpc9bi42cgiidl0htgv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1065751362192-ejmm7brucmaulvpc9bi42cgiidl0htgv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1065751362192-t8k4d9volgpann64p8ct28t8e91a1ccu.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABL5jCaDw7PVxsb_xTL8bBmZJiPwv1bvA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1065751362192</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zipdev.jonathanlnb.pokedexios</string>
+	<key>PROJECT_ID</key>
+	<string>pokedex-zipdev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pokedex-zipdev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1065751362192:ios:ac32f1a983823ca8d67615</string>
+	<key>DATABASE_URL</key>
+	<string>https://pokedex-zipdev.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1065751362192",
+    "firebase_url": "https://pokedex-zipdev.firebaseio.com",
+    "project_id": "pokedex-zipdev",
+    "storage_bucket": "pokedex-zipdev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065751362192:android:bd8fe832af501c8ad67615",
+        "android_client_info": {
+          "package_name": "com.zipdev.jonathanlnb.pokedex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065751362192-t8k4d9volgpann64p8ct28t8e91a1ccu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zipdev.jonathanlnb.pokedex",
+            "certificate_hash": "dc270845bb569ec8389839e9ba05d6bb3f46dad9"
+          }
+        },
+        {
+          "client_id": "1065751362192-le287k5vg7fdp2ipv45rot72h2je8h52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv9QqeRW_rS2b_UXtolonLI9o0xhu4iqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065751362192-le287k5vg7fdp2ipv45rot72h2je8h52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

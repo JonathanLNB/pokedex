@@ -1,0 +1,30 @@
+class Strings {
+  static String pokedex = "Pokédex";
+  static String BASEURL = "https://pokeapi.co/api/v2/";
+  static String IMAGESURL = "https://pokeres.bastionbot.org/images/pokemon/";
+  static String images = "assets/images/";
+  static String ingresar = "Let's Go";
+  static String home = "Home";
+  static String cerrarS = "Sign out";
+  static String confirmacion = "Are you sure?";
+  static String cancelar = "Cancel";
+  static String aceptar = "OK";
+  static String salir = "This is a good bye?";
+  static String salirInfo = "Are you sure to exit the app?";
+  static String errorS = "An error occurred, please try again later";
+  static String informacion = "Info";
+  static String bienvenido = "Welcome!" ;
+  static String agregar = "Add";
+  static String campovacio = "Empty field!";
+  static String error = 'Error 😱';
+  static String iniciarS = "Login with your\npersonal account";
+  static String gotcha = "¡Gotcha!";
+  static String detalles = "Details";
+  static String movimientos = "Moves";
+  static String tipos = "Types";
+  static String formas = "Forms";
+  static String siguiente = "Next";
+  static String datosMoviles = "Mobile Data";
+  static String datosMovilesInfo = "Internet connection detected through your mobile data provider. \n Do you want to download and upload data to the cloud with your mobile data provider?";
+  static String subir = "Use mobile data";
+}
