@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:giffy_dialog/giffy_dialog.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:pokedex/Herramientas/AppColors.dart';
@@ -212,6 +215,9 @@ class _LogIn extends State<LogIn> {
                 Strings.subir,
                 style: TextStyle(fontFamily: "GoogleSans", color: Colors.white),
               ),
+              onCancelButtonPressed: (){
+                Platform.isAndroid ? SystemNavigator.pop() : exit(0);
+              },
               onOkButtonPressed: () async {
                 this.conexion = true;
                 Navigator.pop(context);
